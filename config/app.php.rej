@@ -1,0 +1,9 @@
+diff a/config/app.php b/config/app.php	(rejected hunks)
+@@ -167,7 +167,6 @@
+          * Package Service Providers...
+          */
+         Laravel\Tinker\TinkerServiceProvider::class,
+-        Creitive\Breadcrumbs\BreadcrumbsServiceProvider::class,
+ 
+         /*
+          * Application Service Providers...
