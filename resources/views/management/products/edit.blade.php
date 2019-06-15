@@ -14,7 +14,7 @@
             </div>
             <div class="form-group">
                 <label for="description">Description:</label>
-                <input type="text" class="form-control" id="description" name="description">
+                <input type="text" class="form-control" id="description" name="description" value="{{ $product->description }}">
             </div>
 
             <div class="form-group">
