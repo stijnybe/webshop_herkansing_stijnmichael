@@ -68,6 +68,7 @@ class ProductController extends BaseController
 
         $product = new Product();
         $product->name = $request->name;
+        $product->description = $request->description;
         $product->category = $request->category;
         $product->subcategory = $request->subcategory;
         $product->price = $request->price;
@@ -104,6 +105,7 @@ class ProductController extends BaseController
         $datenow = Carbon::now();
 
         $product->name = request('name');
+        $product->description = request('description');
         $product->category = request('category');
         $product->subcategory = request('subcategory');
         $product->price = request('price');
